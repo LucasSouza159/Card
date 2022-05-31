@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(217, 54%, 11%);
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.card {
+  background: hsl(216, 50%, 16%);
+  width: 250px;
+  height: 420px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px black;
+}
+.imagem-central {
+  width: 210px;
+  height: 180px;
+  border-radius: 8px;
+}
+.cabecalhoPrincipal-titulo {
+  color: white;
+  font-size: 16px;
+}
+.cabecalhoPrincipal-descricao {
+  color: #ccc3;
+  font-size: 15px;
+}
+.cabecalhoPrincipal-bitcoin {
+  font-size: 12px;
+  color: #ccc3;
+}
+.bitcoin {
+  color: hsl(178, 100%, 50%);
+}
+.cabecalhoPrincipal-bitcoin img {
+  max-width: 10px;
+  max-height: 12px;
+}
+.cabecalhoPrincipal-pessoa {
+  border-top: 1px solid rgba(204, 204, 204, 0.082);
+  width: 85%;
+}
+.cabecalhoPrincipal-pessoa img {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(255, 240, 103);
+  border-radius: 50%;
+}
+.cabecalhoPrincipal-pessoa p {
+  color: #ccc3;
+  font-size: 15px;
+}
+.cabecalhoPrincipal-pessoa span {
+  color: #ccc;
+  font-size: 15px;
+}
+.cabecalhoPrincipal .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 35% auto;
+  }
+}

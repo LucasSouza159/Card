@@ -1,0 +1,28 @@
+.card .cabecalhoPrincipal-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.card .cabecalhoPrincipal-descricao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.card .imagem-central {
+  position: relative;
+  margin: 20px;
+}
+.card .cabecalhoPrincipal-bitcoin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.card .cabecalhoPrincipal-pessoa {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
